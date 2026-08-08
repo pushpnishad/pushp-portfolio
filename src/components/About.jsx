@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section id="about" className="section about-section">
+        <section id="about" className="about-section">
 
             <h2 className="section-title">
                 About Me
@@ -8,9 +8,12 @@ function About() {
 
             <div className="about-container">
 
+                {/* About Text */}
                 <div className="about-text">
 
-                    <h3>Java Full Stack Developer</h3>
+                    <h3>
+                        Java Full Stack Developer
+                    </h3>
 
                     <p>
                         I am a motivated and detail-oriented Java Full Stack
@@ -36,6 +39,8 @@ function About() {
 
                 </div>
 
+
+                {/* Highlight Cards */}
                 <div className="about-highlights">
 
                     <div className="highlight-card">
