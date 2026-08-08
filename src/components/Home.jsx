@@ -62,14 +62,12 @@ function Home() {
             </div>
 
 
-            <div className="home-image">
-
-                <img
-                    src="/images/profile.png"
-                    alt="Pushp Nishad"
-                />
-
-            </div>
+           <div className="home-image">
+    <img
+        src={`${import.meta.env.BASE_URL}images/profile.png`}
+        alt="Pushp Nishad"
+    />
+</div>
 
         </section>
     );
