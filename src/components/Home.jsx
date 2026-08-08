@@ -32,12 +32,11 @@ function Home() {
                     </a>
 
                     <a
-                        href="/Pushp_Nishad_CV.pdf"
-                        target="_blank"
-                        className="btn resume-btn"
-                    >
-                        Download CV
-                    </a>
+  href={`${import.meta.env.BASE_URL}images/Pushp_Nishad_CV.pdf`}
+  download
+>
+  Download CV
+</a>
 
                     <a
     href="https://www.linkedin.com/in/pushp-nishad-818059220"
