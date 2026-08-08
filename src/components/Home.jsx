@@ -31,9 +31,9 @@ function Home() {
                         Contact Me
                     </a>
 
-                    <a
+                    <a 
   href={`${import.meta.env.BASE_URL}images/Pushp_Nishad_CV.pdf`}
-  download
+  download className="btn"
 >
   Download CV
 </a>
